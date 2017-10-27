@@ -1,0 +1,20 @@
+host        bastion
+hostname    47.95.156.14
+port        60022
+user        17611270102
+
+host        op001
+hostname    101.201.209.87
+user        root
+
+host        b001
+user        goods
+hostname    123.56.180.170
+
+host        b002
+user        goods
+hostname    123.56.194.34
+
+host        b003
+user        goods
+hostname    101.201.47.8
