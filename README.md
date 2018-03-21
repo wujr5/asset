@@ -45,3 +45,15 @@ wget https://github.com/ayooay/glbproxy/releases/download/do2/Dolphin-chrome-3.3
 * Ubuntu
 
 1. 截图软件：Shutter
+
+* npm registry
+
+淘宝 npm 镜像
+
+```bash
+# 设置淘宝镜像
+npm config set registry https://registry.npm.taobao.org
+
+# 配置后可通过下面方式来验证是否成功
+npm config get registry
+```
