@@ -17,12 +17,12 @@ tar -cvf archive-name.tar directory-to-compress
 tar -xvf archive-name.tar -c directory-to-decompress
 
 # .tar.gz
-tar -zcvf archive-name.tar directory-to-compress
-tar -zxvf archive-name.tar -c directory-to-decompress
+tar -zcvf archive-name.tar.gz directory-to-compress
+tar -zxvf archive-name.tar.gz -c directory-to-decompress
 
 # .tar.bz2
-tar -jcvf archive-name.tar directory-to-compress
-tar -jxvf archive-name.tar -c directory-to-decompress
+tar -jcvf archive-name.tar.bz2 directory-to-compress
+tar -jxvf archive-name.tar.bz2 -c directory-to-decompress
 ```
 
 ## zip command
